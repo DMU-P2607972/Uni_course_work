@@ -1,0 +1,22 @@
+img {
+    width: 25%;
+    min-width: 100px;
+    float: left;
+    margin: 25px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div {
+    float: left;
+    width: 46%;
+    text-align: center;
+    background-color: #6fc4f8;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2%;
+}
