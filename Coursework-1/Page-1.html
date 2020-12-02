@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="website.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+</head>
+<body>
+    <img src="./img/cover-tenet.png" alt="TENET_title" class="title">
+
+    <nav>
+        <div class="button"><a href="Page-1.html"><h1>HOME</h1></a></div>
+        <div class="button"><a href="Page-2-cast.html"><h1>CAST</h1></a></div>
+    </nav>
+
+    <!--
+    The heading and the paragraph has been grouped into a div so that they would be highlighter
+     by a border into one element
+    -->
+    <div>
+        <h1>Synopsis</h1>
+        <p> An unnamed CIA agent, the "Protagonist", participates in an undercover operation at a Kyiv opera house.
+            He is aided by a masked soldier with a distinctive trinket, who appears to "un-fire" a bullet through a
+            hostile gunman. After seizing a strange artifact, the Protagonist is captured by mercenaries.
+            He endures torture before consuming a cyanide pill. He awakens to learn the pill was a test of his
+            loyalty; his team has been killed and the artifact lost.
+            <br><br>
+            The Protagonist is now employed by a secret organization called Tenet. A scientist shows him bullets
+            with "inverted" entropy which allows them to move backwards through time. She believes they are
+            manufactured in the future, and a weapon exists that can wipe out the past. Aided by a local contact,
+            Neil, the Protagonist traces the bullet cartridges to arms dealer Priya Singh. He discovers she is a
+            member of Tenet; her cartridges were purchased and time-inverted by Russian oligarch Andrei Sator.
+            <br><br>
+            Tenet tracks the assembled algorithm to Sator's hometown of Stalsk-12 in Northern Siberia. In a
+            "temporal pincer movement", red team troops move forward in time, while the blue team troops move
+            backward. The Protagonist and Ives are aided by a masked corpse with a trinket on its backpack that
+            returns to life. In Vietnam, Kat boards Sator's yacht and kills him as the Protagonist and Ives secure
+            the algorithm.
+            <br><br>
+            The Protagonist, Neil, and Ives break up the algorithm and part ways. The Protagonist notices a trinket
+            on Neil's rucksack. Neil reveals that he was recruited by the Protagonist years earlier, and this
+            mission is the end of a long friendship. Priya attempts to have Kat assassinated, but is killed by the
+            Protagonist, who has realised that he is the future mastermind behind Tenet.</p>
+    </div>
+
+    <video controls>
+        <!--
+        Two different types of file extensions has been used in order to accommodate the possible browsers that the
+        files would be viewed on.
+        -->
+        <source src="./vid/TENET%20-%20NEW%20TRAILER.mp4" type="video/mp4">
+        <source src="./vid/TENET%20-%20NEW%20TRAILER.wmv" type="video/mwv">
+        <!--
+        The line of text below is going to show in browsers that do not support any of the formats listed above.
+        Alarming the user that they will need to switch to a different browser if they want to preview the file.
+        -->
+        Your browser does not support the video element
+    </video>
+
+    <footer>
+        <!--
+        The footer was glitching for one of the pages out of two so I had to put it in a <p> element and class it to
+        separate it from the general <p> element properties that has been assigned previously as a general rule
+        -->
+        <p class="footer">To book tickets now in Showcase cinema click
+        <a href="https://www.showcasecinemas.co.uk/showtimes/showcase-cinema-de-lux-leicester">HERE</a>.
+        <br><br>
+            Website created by Galina Larina P2607972 Multimedia 1 Assessment 1</p>
+    </footer>
+</body>
+</html>
