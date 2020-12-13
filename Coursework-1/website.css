@@ -1,0 +1,189 @@
+body {
+    background-color: #75a9db;
+}
+
+/*
+The following class tag has been assigned to the title image in 2 html files
+in order to assign specific properties to it that are different to general images used
+*/
+
+.title {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 1%;
+    margin-bottom: 0;
+    width: 98%;
+    border: 10px ridge #b3e2f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*
+I wanted to separate the navigation buttons so that they were clearly distinct form each other and highlighted from
+other elements on the pages so I assigned them a special
+class "button" and have set certain properties to that class in order to highlight the buttons.
+*/
+
+.button {
+    float: left;
+    width: 48%;
+    text-align: center;
+    background-color: #9edbff;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 1%;
+    cursor: pointer;
+    border: 10px ridge #b3e2f8;
+    border-radius: 10px;
+    font-family: Calibri, sans-serif;
+}
+
+ /*
+ I wanted to give the buttons a special effect in order to differ them from other elements on the pages
+ and therefore I assigned a hover effect using css property
+ */
+
+.button:hover {
+    background-color: #a4b4bc;
+}
+
+/*
+General properties have been assigned to div elements so they would look generically the same
+*/
+
+div {
+    margin: 1%;
+    margin-top:0;
+    float: left;
+    width: 98%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px ridge #b3e2f8;
+    border-radius: 10px;
+    font-family: "Times New Roman", sans-serif;
+}
+
+h1, h3 {
+    color: #1010c1;
+}
+
+h3 {
+    margin: 0;
+}
+/*
+I wanted text in paragraphs to be aligned to the left of the container so I generalised it by aligning text to the
+left for all <p> tags
+*/
+
+p {
+    text-align: left;
+    margin: 0;
+}
+
+.cast {
+    margin: 1%;
+    width: 71%;
+    display: inline;
+    float: left;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px ridge #b3e2f8;
+    border-radius: 10px;
+}
+
+video {
+    margin-left: 1%;
+    width: 98%;
+    border: 10px ridge #b3e2f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1%;
+    padding: 10px;
+    width: 98%;
+    border: 10px ridge #b3e2f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+/*Image shares space with the text next to it, therefore it only takes up 25% of the width whilst the text takes up 71%
+of the width and the rest is taken by the margin that divides */
+img {
+    float: left;
+    width: 25%;
+    min-width:130px;
+    border: 10px ridge #b3e2f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.about-cast {
+    float: right;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px ridge #b3e2f8;
+    border-radius: 10px;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.invis {
+    width: 100%;
+    display: inline;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aud {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 98%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+This was the only solution to the problem I have encountered when I had to change footer to fit one of the pages
+I had to assign a class to a <p> element within footer in order to fix the text placement within the <footer>
+*/
+
+a:visited, a:link {
+    color: #1010d6;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+/*
+I needed to put an accent on the external link and therefore I have increased the size of lettering to be twice as big
+as the text before the link word
+*/
+
+.foot-a {
+    font-size: 30px;
+}
